@@ -24,7 +24,7 @@ class UpClient:
     
     def __init__(self, api_key: str, base_url: str = "https://api.up.com.au/api/v1"):
         self.api_key = api_key
-        self.token = api_key  # Alias for compatibility
+        self.token = api_key
         self.base_url = base_url.rstrip("/")
         self.session = requests.Session()
         self.headers = {
