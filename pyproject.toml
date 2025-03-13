@@ -1,8 +1,17 @@
 [project]
-name = "up"
+name = "up-bank-pyclient"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python client library for the UP Bank API"
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+]
 readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Jack Munro", email = "jack@jsmunro.me" },
+]
 requires-python = ">=3.11"
 dependencies = [
     "requests>=2.25.0",
